@@ -6,7 +6,7 @@ class Rack::Legacy::PhpCli < Rack::Legacy::Cgi
   # Like Rack::Legacy::Cgi.new except allows an additional argument
   # of which executable to use to run the PHP code.
   #
-  #  use Rack::Legacy::Php, 'public', 'php5-cgi'
+  #  use Rack::Legacy::PhpCli, 'public', 'php5-cgi'
   def initialize(app, public_dir=FileUtils.pwd, php_exe='php-cgi')
     super app, public_dir
     @php_exe = php_exe
