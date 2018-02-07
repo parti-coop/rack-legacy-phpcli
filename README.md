@@ -8,7 +8,7 @@ PHP 코드를 [Rake](http://rack.github.io/) 서버에서 작동시키는 Rack h
 
 Gemfile에 아래와 같이 기록하고 bundler를 통해 설치합니다.
 ```ruby
-gem 'rack-legacy-phpcli', git: 'git@bitbucket.org:ufofactory/rack-legacy-phpcli.git'
+gem 'rack-legacy-phpcli', git: 'git@github.com:parti-xyz/rack-legacy-phpcli.git'
 ```
 
 # 예제
@@ -23,7 +23,7 @@ source 'https://rubygems.org'
 gem 'rake'
 gem 'rack-legacy'
 gem 'rack-rewrite'
-gem 'rack-legacy-phpcli', git: 'git@bitbucket.org:ufofactory/rack-legacy-phpcli.git'
+gem 'rack-legacy-phpcli', git: 'git@github.com:parti-xyz/rack-legacy-phpcli.git'
 ```
 
 config.ru파일은 아래와 같이 작성합니다.
